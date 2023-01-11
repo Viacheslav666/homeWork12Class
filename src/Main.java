@@ -22,7 +22,7 @@ public class Main {
         Author author = new Author("Алекс", "Лесли");
         Book book = new Book("Жизнь без трсуов", author, 2010);
         System.out.println("book.getAge() = " + book.getAge());
-        book.setAge(2012);
+        book.setAge(1000);
         System.out.println("book.getAge() = " + book.getAge());
 
 

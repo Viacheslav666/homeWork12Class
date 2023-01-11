@@ -22,7 +22,7 @@ public class Book {
         return this.age;
     }
 
-    public void setAge(int Age) {
+    public void setAge(int age) {
         if (age < 1500 || age > 2500) {
             System.out.println("Ошибка год не может быть равен - " + age);
             return;
