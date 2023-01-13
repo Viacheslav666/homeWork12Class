@@ -36,31 +36,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Book();
-        /**задание из видео, с моими комментариям.
-         * Прошу не обращать внимание.
-         */
-        String nameJohn = "John";
-        int ageJohn = 13;
 
-        String nameSarah = "Sarah";
-        int ageSarah = 30;
-
-        String[] names = {"John", "Sarah"};
-        int[] ages = {13, 30};
-        for (int i = 0; i < names.length; i++) {
-            System.out.println("Имя - " + names[i] + "Возвраст - " + ages[i]); // не понятно как привязывается возвраст к имине, у него же нет цикла
-
-        }
-        Person sarah = new Person("Sarah", 21);// Мы сами можем создавать тип переменных?? для этого нужны классы? Для типа переменной var так же есть класс?
-        System.out.println("SarahName - " + sarah.getName());
-        System.out.println(sarah.getAge());
-        Person daria = new Person("Даша", 31);
-        daria.setAge(33);
-        System.out.println("daria.age = " + daria.getAge());
-        System.out.println("daria.name = " + daria.getName());
-        daria.setAge(32);
-        System.out.println("daria.getAge() = " + daria.getAge());
     }
 
 }
